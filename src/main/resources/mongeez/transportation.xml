@@ -1,0 +1,16 @@
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-4" author="dailyExpense">
+        <script>
+            db.transportation.insert(
+            {
+               
+                "date" : "07/05/2016",
+                "description" : "Gachibowli to Ameerpet",
+                "category":"offline",
+                "expense":"160"
+                
+            });
+		 </script>
+ 		</changeSet>
+ </mongoChangeLog>
+           

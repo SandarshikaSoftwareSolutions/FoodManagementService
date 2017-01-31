@@ -1,0 +1,7 @@
+<changeFiles>
+    <file path="food.xml"/>
+    <file path="miscellaneous.xml"/>
+    <file path="transportation.xml"/>
+    <file path="users.xml"/>
+    <file path="authority.xml"/>
+</changeFiles>

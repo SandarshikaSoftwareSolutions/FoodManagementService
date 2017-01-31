@@ -1,0 +1,23 @@
+<mongoChangeLog>
+  <changeSet changeId="ChangeSet-1" author="dailyExpense">
+     <script>
+          db.users.insert(
+            {
+                "userName" : "sasmita",
+                "email": "smaharana@nisum.com",
+                "createdDate": new Date(),
+                "password":"nisum",
+                "authorities": ["ROLE_ADMIN", "ROLE_USER"]
+            });
+              db.users.insert(
+            {
+                "userName" : "rajini",
+                "email": "rgangadhari@nisum.com",
+                "createdDate": new Date(),
+                 "password":"nisum",
+                "authorities": [ "ROLE_ADMIN", "ROLE_USER"]
+            });
+     </script>
+  </changeSet>
+</mongoChangeLog>
+     

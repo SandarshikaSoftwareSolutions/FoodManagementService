@@ -1,0 +1,17 @@
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-3" author="dailyExpense">
+        <script>
+           
+            db.miscellaneous.insert(
+            {
+               
+                "date" : "07/05/1991",
+                "description" : "panipuri",
+                "category":"offline",
+                "expense":"50"
+                
+            });
+            </script>
+            </changeSet>
+            </mongoChangeLog>
+           
