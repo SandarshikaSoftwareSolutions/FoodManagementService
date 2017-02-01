@@ -1,7 +1,7 @@
 spring.data.mongodb.database=expenseTracker
 spring.data.mongodb.port=27017
 spring.data.mongodb.host=192.168.1.66
-name=sasmita
+
 
 
 #The title for the spring boot service to be displayed on swagger UI. It will refer to the above value.  
